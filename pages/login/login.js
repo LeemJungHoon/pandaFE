@@ -47,7 +47,7 @@ function passwordCheck(password) {
 const loginfetch = () => {
   //이메일 형식검사, 비밀번호 형식검사 만족했다면
   if (emailCheck(emailInput.value) && passwordCheck(passwordInput.value)) {
-    fetch("http://kdt-sw-6-team10.elicecoding.com/api/users/login", {
+    fetch("https://panda-be.vercel.app/api/users/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

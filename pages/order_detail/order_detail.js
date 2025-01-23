@@ -4,16 +4,13 @@ const target = document.querySelector("body");
 
 const getCardItems = async () => {
   console.log(`bearer ${localStorage.getItem("login-token")}`);
-  const response = await fetch(
-    "http://kdt-sw-6-team10.elicecoding.com/api/order",
-    {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `bearer ${localStorage.getItem("login-token")}`,
-      },
-    }
-  );
+  const response = await fetch("https://panda-be.vercel.app/api/order", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `bearer ${localStorage.getItem("login-token")}`,
+    },
+  });
 
   if (!response.ok) throw new Error();
 
@@ -50,9 +47,7 @@ const cartDetailRender = async () => {
                 <div class="left">
                   <img
                     class="flower_image"
-                    src="http://kdt-sw-6-team10.elicecoding.com/${
-                      product.item.imageUrl
-                    }"
+                    src="https://panda-be.vercel.app/${product.item.imageUrl}"
                     alt=""
                   />
                 </div>
@@ -105,7 +100,7 @@ const cartDetailRender = async () => {
   init();
 
   const deleteBtnFetch = (orderNumber) => {
-    fetch(`http://kdt-sw-6-team10.elicecoding.com/api/order/${orderNumber}`, {
+    fetch(`https://panda-be.vercel.app/api/order/${orderNumber}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

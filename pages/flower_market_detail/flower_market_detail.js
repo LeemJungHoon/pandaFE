@@ -25,7 +25,7 @@ const orderFetch = (product, quantity) => {
     try {
       const accessToken = localStorage.getItem("login-token");
 
-      fetch("http://kdt-sw-6-team10.elicecoding.com/api/cart", {
+      fetch("https://panda-be.vercel.app/api/cart", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -46,12 +46,9 @@ const orderFetch = (product, quantity) => {
 };
 
 const getProduct = async (id) => {
-  const response = await fetch(
-    `http://kdt-sw-6-team10.elicecoding.com/api/items/${id}`,
-    {
-      method: "GET",
-    }
-  ).then((res) => res.json());
+  const response = await fetch(`https://panda-be.vercel.app/api/items/${id}`, {
+    method: "GET",
+  }).then((res) => res.json());
   if (!response.data) throw new Error("error");
 
   return response.data;
@@ -119,7 +116,7 @@ export const flowerMarketDetailRender = async (root, id) => {
 
     <div class="flower_market_detail">
       <div class="left">
-        <img src="http://kdt-sw-6-team10.elicecoding.com/${product.imageUrl}" alt="" />
+        <img src="https://panda-be.vercel.app/${product.imageUrl}" alt="" />
       </div>
 
       <div class="right">

@@ -1,0 +1,194 @@
+* {
+  font-family: netmarble;
+}
+
+.login_menu {
+  width: 7%;
+}
+
+.header .lnb {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 50px 160px 0 160px;
+  box-sizing: border-box;
+}
+
+.header .lnb ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.header .lnb ul li {
+  display: block;
+}
+
+.header .lnb ul li a {
+  display: block;
+  width: 100%;
+  text-align: right;
+  text-decoration: none;
+  color: black;
+}
+
+.header .logo {
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+  padding: 50px 0;
+}
+.header .logo img {
+  width: 100%;
+  display: block;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+/* 이름, 주소, 비밀번호, 비밀번호 확인 입력창  */
+.name_input,
+.address_input,
+.password_input,
+.password_check_input {
+  background-color: #eeeeee;
+  border: none;
+  width: 515px;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+/* 전화번호, 이메일 앞부분 */
+.phone_number_input_010,
+.email_input_third{
+  background-color: #eeeeee;
+  border: none;
+  width: 80px;
+  text-align: center;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* 전화번호, 이메일 뒷부분 */
+.phone_number_input_startnum,
+.phone_number_input_lastnum,
+.email_input_second,
+.email_input_first{
+  background-color: #eeeeee;
+  border: none;
+  width: 200px;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.password_input::placeholder,
+.password_check_input::placeholder,
+.email_input::placeholder,
+.phone_number_input_010::placeholder,
+.phone_number_input_hyphen::placeholder,
+.phone_number_input_startnum::placeholder,
+.phone_number_input_lastnum::placeholder {
+  font-size: 15px;
+  color: #818181;
+  font-family: netmarble;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.input_text {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  width: 515px;
+  margin: 20px 0px 7px 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 회원가입 텍스트 */
+.join_title_text {
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin: 51px 79px;
+}
+
+.email_input {
+  margin-bottom: 30px;
+}
+
+label {
+  width: 595px;
+  display: flex;
+  justify-content: left;
+  font-size: 30px;
+}
+
+/* 모두 동의 */
+.all_agree {
+  margin: 58px 0px 12px 0px;
+}
+
+/* 개인정보처리방침, 제3자 동의 */
+.personal_information_agree,
+.third_party_agree {
+  margin-top: 12px;
+}
+
+/* 구분바 */
+.saperate_bar {
+  background-color: #eeeeee;
+  width: 515px;
+  padding: 3.5px;
+}
+
+/* 회원가입 버튼 */
+.join_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 515px;
+  padding: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 27px;
+}
+
+.black_flower {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.phone_number_cannot_change,
+.name_cannot_change {
+  margin: 5px 0px 0px 8px;
+  width: 515px;
+  color: gray;
+  font-size: 13px;
+}

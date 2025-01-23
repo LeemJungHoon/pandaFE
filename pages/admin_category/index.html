@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>관리자 페이지-카테고리</title>
+
+    <link rel="stylesheet" href="/pages/common/css/reset.css" />
+    <link rel="stylesheet" href="/pages/common/css/common.css" />
+
+    <link rel="stylesheet" href="admin_category.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="menu_sub_admin"></div>
+    <div class="logo"></div>
+
+    <div class="container">
+      <div class="management_menu_container">
+        <a href="/pages/admin_orderlist/" class="management_menu">주문 관리</a>
+        <a href="/pages/admin_category/" class="category_management_menu" class="management_menu">카테고리 관리</a>
+        <a href="/pages/admin_product/" class="management_menu">상품 관리</a>
+      </div>
+
+      <!-- 메인메뉴 -->
+      <div class="menu_container">
+        <div class="main_container">
+          <div class="main_menu_container"></div>
+          <div class="add_button_container addMainBtn">
+            <button class="add_button addMainCategoryBtn">메인 추가</button>
+          </div>
+        </div>
+
+        <!-- 분리바 -->
+        <div class="saperate_bar"></div>
+
+        <!-- 서브메뉴 -->
+        <div class="sub_container">
+          <div class="sub_menu_container"></div>
+          <div class="add_button_container addSubBtn">
+            <button class="add_button addSubCategoryBtn">서브 추가</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="category_edit_button_container">
+        <button class="modify_button">수정</button>
+        <button class="delete_button">삭제</button>
+      </div>
+    </div>
+
+    <div class="footer"></div>
+    <script src="admin_category.js"></script>
+    <script src="../common/js/common.js"></script>
+  </body>
+</html>

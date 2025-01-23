@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PandaFlower</title>
+  <link rel="stylesheet" href="/pages/common/css/common.css" />
+  <link rel="stylesheet" href="/pages/common/css/reset.css" />
+  <link rel="stylesheet" href="cart_style.css" />
+  <script type="module" src="/pages/common/js/common.js" defer></script>
+
+  <body>
+    <div class="menu_sub_member"></div>
+    <div class="logo"></div>
+    <div class="menu_main"></div>
+
+    <div class="cart">
+      <div class="cart_list">
+        <h1><img src="/img/black_flower_small.png" alt="" />장바구니</h1>
+        
+        <div class="cart_list_item">
+          <!-- 여기에 데이터 들어가야 함 -->
+        </div>
+        
+      </div>
+      <div class="cart_pop">
+        <div class="cp_body">
+          <h1 class="cp_top">주문금액</h1>
+          <h2 class="cp_top2">
+            <p>총 주문금액</p>
+            <b class="cart_pop_total_price"></b>
+          </h2>
+          <button type="button" id="all_item_del" class="aid">
+            전체 상품 삭제
+          </button>
+          <button type="button" id="choose_item_del" class="cid">
+            선택 상품 삭제
+          </button>
+          <button type="button" id="order_btn" class="obtn">주문하기</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer"></div>
+    <script type="module" src="./cart.js"></script>
+  </body>
+</html>

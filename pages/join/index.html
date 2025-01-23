@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입 페이지</title>
+    <link rel="stylesheet" href="/pages/common/css/reset.css" />
+    <link rel="stylesheet" href="/pages/common/css/common.css" />
+
+    <link rel="stylesheet" href="join.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style></style>
+  <body>
+    <div class="header">
+      <div class="lnb">
+        <ul>
+          <li class="login_menu"><a href="../login/index.html">로그인</a></li>
+        </ul>
+      </div>
+      <div class="logo">
+        <img src="/img/logo.png" alt="" />
+      </div>
+
+      <h1 class="join_title_text">회원가입</h1>
+    </div>
+
+    <!-- 이름 -->
+    <div class="container">
+      <h3 class="input_text">
+        <img class="black_flower" src="/img/black_flower_small.png" />이름
+      </h3>
+      <input class="name_input" placeholder="판다꽃" />
+      <div class="name_cannot_change">
+        주의! 이름은 가입 이후 변경할 수 없습니다.
+      </div>
+
+      <!-- 전화번호 -->
+      <h3 class="input_text">
+        <img class="black_flower" src="/img/black_flower_small.png" />전화번호
+      </h3>
+      <div>
+        <input class="phone_number_input_010" value="010" readonly />
+        <span>-</span>
+        <input class="phone_number_input_startnum" />
+        -
+        <input class="phone_number_input_lastnum" />
+      </div>
+
+      <div class="phone_number_cannot_change">
+        주의! 전화번호는 가입 이후 변경할 수 없습니다.
+      </div>
+
+      <!-- 주소 -->
+      <h3 class="input_text">
+        <img class="black_flower" src="/img/black_flower_small.png" />주소
+      </h3>
+      <input class="address_input" placeholder="서울시 구로구" />
+
+      <!-- 이메일 -->
+      <h3 class="input_text">
+        <img class="black_flower" src="/img/black_flower_small.png" />이메일
+      </h3>
+      <div>
+        <input class="email_input_first" placeholder="panda" />
+        @
+        <input class="email_input_second" placeholder="naver" />
+        .
+        <input class="email_input_third" placeholder="com" />
+      </div>
+
+      <!-- 비밀번호 -->
+      <h3 class="input_text">
+        <img class="black_flower" src="/img/black_flower_small.png" />비밀번호
+      </h3>
+      <input
+        class="password_input"
+        placeholder="최소 8자이상, 최소 1개 이상의 영문자(대소문자 무관), 숫자, 특수문자 포함"
+      />
+
+      <!-- 비밀번호 확인 -->
+      <h3 class="input_text">
+        <img
+          class="black_flower"
+          src="/img/black_flower_small.png"
+        />비밀번호확인
+      </h3>
+      <input
+        class="password_check_input"
+        placeholder="동일한 비밀번호를 입력해 주세요."
+      />
+
+      <!-- 개인정보 동의 -->
+      <label class="input_text" class="all_agree">
+        <input
+          type="checkbox"
+          class="cbx_all_agree"
+          name="모두동의"
+          value=""
+        />모두 동의
+      </label>
+
+      <div class="saperate_bar"></div>
+
+      <label class="input_text" class="personal_information_agree">
+        <input
+          type="checkbox"
+          class="cbx_personal_information_agree"
+          name="개인정보처리방침"
+          value=""
+          disabled
+        />개인정보처리방침(필수)
+      </label>
+
+      <label class="input_text" class="third_party_agree">
+        <input
+          type="checkbox"
+          class="cbx_third_party_agree"
+          name="제3자 동의"
+          value=""
+          disabled
+        />제3자동의(필수)
+      </label>
+
+      <button class="join_button">회원가입</button>
+    </div>
+
+    <div class="footer"></div>
+    <script src="/pages/common/js/common.js"></script>
+    <script type="module" src="join.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/pages/common/css/reset.css" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style></style>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="/img/logo.png" alt="" />
+      </div>
+
+      <h1 class="login_title_text">로그인</h1>
+    </div>
+
+    <div class="container">
+      <!-- 이메일 -->
+      <h3 class="input_text">
+        <img class="black_flower" src="/img/black_flower_small.png" />이메일
+      </h3>
+      <input class="email_input" placeholder="abc@def.com 형식" />
+
+      <!-- 비밀번호 -->
+      <h3 class="input_text">
+        <img
+          class="black_flower"
+          srcset="/img/black_flower_small.png"
+        />비밀번호
+      </h3>
+      <input
+        class="password_input"
+        placeholder="최소 8자이상, 최소 1개 이상의 영문자(대소문자 무관), 숫자, 특수문자 포함"
+      />
+
+      <a class="login_button">로그인</a>
+      <a class="join_button" href="/pages/join/index.html">회원가입</a>
+    </div>
+
+    <div class="footer"></div>
+    <script type="module" src="/pages/common/js/common.js"></script>
+
+    <script src="./login.js"></script>
+  </body>
+</html>

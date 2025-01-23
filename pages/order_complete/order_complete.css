@@ -1,0 +1,31 @@
+.order_complet_blank {
+    margin: 3%;
+}
+
+.order_complet_main {
+    text-align: center;
+    font-size: 200%;
+}
+.order_complet_main .grids {
+    display: grid;
+    grid-template-columns: 35% 4% 56%;
+
+    align-items: center;
+    justify-items: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.order_complet_main .grids .num {
+    /* background-color: rgb(139, 134, 134); */
+    background: #333;
+    color: #fff;
+    padding: 15px; box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.footer {
+    text-align: center;
+}

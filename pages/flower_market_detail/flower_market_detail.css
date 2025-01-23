@@ -1,0 +1,112 @@
+html {
+  width: 100%;
+}
+
+/* 메인 컨텐츠 묶는 컨테이너 */
+.flower_market_detail {
+  width: 1300px;
+  padding-top: 150px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.left,
+.right {
+  width: 30%;
+}
+
+.left {
+  margin-right: 40px;
+}
+
+.right {
+  margin-left: 40px;
+}
+
+/* 메인 꽃 사진 */
+.left > img {
+  width: 100%;
+}
+
+/* 검정색 꽃 이미지 */
+.title > img {
+  width: 36px;
+}
+
+/* 꽃 한개 금액  */
+.price_container {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+/* 총 주문 금액 텍스트와 금액 묶는 컨테이너 */
+.total_price_container {
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.flower_market_detail .right .title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 3px solid #d9d9d9;
+  padding-bottom: 35px;
+}
+
+.right .title h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.flower_market_detail .right .info .count {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.flower_market_detail .right .info .count .count_btn button {
+  display: block;
+  font-size: 16px;
+}
+
+.flower_market_detail .right .fmd_btn {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+/* 장바구니에 넣기, 주문하기 버튼 */
+.fmd_btn > button,
+.order_btn {
+  width: 50%;
+  margin: 25px 0px 25px 0px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #d9d9d9;
+  font-size: 20px;
+}
+
+/* 장바구니에 넣기, 주문하기 버튼 마우스오버 */
+.fmd_btn > button:hover,
+.order_btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.more > p {
+  font-size: 20px;
+  line-height: 140%;
+  width: 100%;
+}
+
+.order_btn {
+  display: flex;
+  justify-content: center;
+}

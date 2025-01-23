@@ -1,0 +1,154 @@
+* {
+  font-family: paybooc;
+}
+
+.product_management_menu {
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.management_menu {
+  margin: 20px;
+}
+
+.management_menu_container {
+  margin: 60px;
+  font-size: 40px;
+}
+
+.all_flower_container {
+  display: flex;
+  width: 1140px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sub_menu_container,
+.main_menu_container {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+}
+
+/* 메인 메뉴, 서브 메뉴 전체 묶는 컨테이너 */
+.menu_container {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remove_add_button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+}
+
+/* 꽃 이름, 사진, 금액을 하나로 묶는 컨테이너 */
+.flower_container {
+  margin: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 이미지 대체하려고 넣음 */
+.image {
+  background-color: #eeeeee;
+  width: 240px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.flower_price,
+.flower_name {
+  height: 15px;
+  margin: 8px;
+}
+
+.flower_price {
+  margin-bottom: 40px;
+}
+
+.sub_menu_container > button {
+  width: 200px;
+}
+
+.saperate_bar {
+  width: 1px;
+  background-color: #000;
+  margin-bottom: 222px;
+  padding: 100px 0px;
+}
+
+.bottom_saperate_bar {
+  width: 1040px;
+  background-color: #000;
+  margin-top: 94px;
+  margin-bottom: 105px;
+  height: 1px;
+}
+
+/* 선택 상품 삭제, 상품 추가, 현재 페이지 삭제 버튼 */
+.remove_add_button {
+  margin: 30px;
+  background-color: #eeeeee;
+  width: 400px;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.product_edit_button {
+  width: 240px;
+  text-align: right;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.check_box {
+  position: absolute;
+  margin-right: 225px;
+  margin-bottom: 225px;
+}
+
+/* 페이지 넘기는 버튼 */
+.page_button {
+  margin: 10px;
+}
+
+/* 상품 카테고리 버튼  */
+.sub_menu,
+.main_menu {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+/* 상품 카테고리 마우스오버  */
+.sub_menu:hover,
+.main_menu:hover {
+  background-color: #eeeeee;
+  border-radius: 15px;
+}
+
+.minus_image,
+.plus_image,
+.multiply_image {
+  width: 60px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}

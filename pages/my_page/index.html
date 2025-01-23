@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마이페이지</title>
+    <link rel="stylesheet" href="/pages/common/css/reset.css" />
+    <link rel="stylesheet" href="/pages/common/css/common.css" />
+    <link rel="stylesheet" href="my_page.css" />
+    <script type="module" src="/pages/common/js/common.js" defer></script>
+    <script src="my_page.js" defer></script>
+  </head>
+  <body>
+    <div class="logo"></div>
+
+    <div class="container">
+      <h1 class="id_title_text">
+        <img src="/img/black_flower_small.png" class="big_black_flower" />
+        아이디: <span id="myPageBox" class="my_page_idbox"></span>
+      </h1>
+
+      <!-- 분리바 -->
+      <div class="saperate_bar"></div>
+
+      <!-- 비밀번호 수정 -->
+      <!-- <form action="" id="userForm"> -->
+      <h3 class="input_text">
+        <img
+          class="small_black_flower"
+          src="/img/black_flower_small.png"
+        />비밀번호 수정
+      </h3>
+      <input
+        class="edit_password_input"
+        placeholder="최소 8자이상, 최소 1개 이상의 영문자(대소문자 무관), 숫자, 특수문자 포함"
+      />
+
+      <!-- 비밀번호 수정 확인 -->
+      <h3 class="input_text">
+        <img
+          class="small_black_flower"
+          src="/img/black_flower_small.png"
+        />비밀번호 수정 확인
+      </h3>
+      <input
+        class="edit_password_check_input"
+        placeholder="동일한 비밀번호를 입력하시오."
+      />
+
+      <!-- 주소 -->
+      <h3 class="input_text">
+        <img class="small_black_flower" src="/img/black_flower_small.png" />주소
+      </h3>
+      <input class="adress_input" />
+
+      <button type="button" class="save_button">저장</button>
+      <!-- </form> -->
+      <button type="button" class="delete_account_button">계정탈퇴</button>
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>

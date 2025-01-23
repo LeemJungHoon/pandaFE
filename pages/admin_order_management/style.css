@@ -1,0 +1,196 @@
+.admin_order_management {
+    position: relative;
+    padding: 130px;
+     box-sizing: border-box;
+    display: flex;
+     align-items: normal;
+     justify-content: normal;
+}
+/* .cart .admin_order_management_list .at_container{
+    max-width: 1200px;
+     width: 100%;
+     display: block;
+    margin: 0 auto;
+}
+ */
+ .admin_order_management .admin_order_management_list{
+    max-width: 1200px;
+     width: 100%;
+     display: block;
+}
+ .admin_order_management .admin_order_management_list h1{
+    display: flex;
+     align-items: center;
+     justify-content: normal;
+    font-size: 24px;
+     font-weight: 500;
+    padding-bottom: 25px;
+     border-bottom: 1px solid #333;
+}
+ .admin_order_management .admin_order_management_list h1 img{
+    width: 24px;
+    margin-right: 10px;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item{
+    display: block;
+    padding: 55px 15px;
+     box-sizing: border-box;
+     border-bottom: 1px solid #333;
+}
+3 .admin_order_management .admin_order_management_list .admin_order_management_item .item_name{
+    display: flex;
+     align-items: center;
+     justify-content: normal;
+    margin-bottom: 20px;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_name {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+/* .cart .admin_order_management_list .admin_order_management_item .item_name p{
+    font-size: 24px;
+}
+ */
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content{
+    display: flex;
+     align-items: normal;
+     justify-content: normal;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content .left{
+    margin-right: 4%;
+     width: 25%;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content .left img{
+    display: block;
+     width: 100%;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content .right{
+    display: block;
+    width: 70%;
+    position: relative;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content .right .item_price{
+    font-size: 32px;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content .right .item_count{
+    font-size: 32px;
+    margin-top: 25px;
+    display: flex;
+     align-items: center;
+     justify-content: normal;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content .right .item_count span.count{
+    margin-left: 10px;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content .right .item_count span.count_btn{
+    margin-left: 30px;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content .right .item_count span.count_btn button{
+    display: flex;
+}
+ .admin_order_management .admin_order_management_list .admin_order_management_item .item_content .right .total_price {
+    font-size: 32px;
+     position: absolute;
+     bottom: 0;
+}
+ .admin_order_management .admin_order_management_pop {
+    position: relative;
+    margin-left: 5%;
+    width: 450px;
+}
+ .admin_order_management .admin_order_management_pop .cp_body{
+    position: sticky;
+     top: 5%;
+}
+ .admin_order_management .admin_order_management_pop h1.cp_top{
+    display: block;
+     text-align: left;
+     font-size: 24px;
+     font-weight: 500;
+    padding-bottom: 26px;
+     border-bottom: 1px solid #333;
+}
+ .admin_order_management .admin_order_management_pop h2.cp_top2{
+    display: flex;
+     align-items: flex-end ;
+     justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+ .admin_order_management .admin_order_management_pop h2.cp_top2 p{
+    font-size: 18px;
+}
+ .admin_order_management .admin_order_management_pop h2.cp_top2 b{
+    font-size: 36px;
+     font-weight: 500;
+}
+ .admin_order_management .admin_order_management_pop h3.cp_top3 {
+    font-size: 28px;
+    display: block;
+     margin-bottom: 150px;
+}
+ .admin_order_management .admin_order_management_pop button{
+    display: block;
+     width: 100%;
+     padding: 10px;
+     box-sizing: border-box;
+     border-radius: 10px;
+     text-align: center;
+     color: #fff;
+     margin-bottom: 25px;
+    font-size: 24px;
+}
+ .admin_order_management .admin_order_management_pop .cp_order_number {
+    display: flex;
+     align-items: center;
+     justify-content: normal;
+}
+ .admin_order_management .admin_order_management_pop .cp_order_number img{
+    width: 22px;
+    margin-right: 5px;
+}
+ .admin_order_management .admin_order_management_pop .cp_order_number p{
+    font-size: 22px;
+}
+ .admin_order_management .admin_order_management_pop button.o_c_btn{
+    background: #333;
+     margin-top: 10px;
+    padding: 20px 10px;
+     box-sizing: border-box;
+}
+
+.search{
+    display: block;
+    margin: 0 auto;
+    padding-top: 150px; padding-bottom: 50px;
+}
+.search h3{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.search .search_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search .search_bar input{
+    width: 20%;
+    background: #eee;
+    border:0;
+    padding:10px 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+}
+.search .search_bar button{
+    width: 33px;
+    margin-left: 10px;
+}
+.search .search_bar button img{
+    display: block;
+    width: 100%;
+}

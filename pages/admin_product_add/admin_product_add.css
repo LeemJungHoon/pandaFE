@@ -1,0 +1,82 @@
+.admin_product_add {
+    width: 1500px;
+     padding: 150px 15px;
+     box-sizing: border-box;
+     display: flex;
+     align-items: normal;
+     justify-content: space-between;
+     margin: 0 auto;
+}
+ .admin_product_add .left {
+    width: 45%;
+}
+ .admin_product_add .left img{
+    display: block;
+    width: 100%;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
+/* 이미지교체 버튼 */
+.admin_product_add .left .imgBtn{
+    display: block;
+    font-size: 150%;
+    border-radius: 15px;
+    background-color: gray;
+    width: 100%;
+    height: 10%;
+}
+ .admin_product_add .right{
+    width: 52%;
+}
+ .admin_product_add .right .title {
+    display: flex;
+    align-items: normal;
+     justify-content: space-between;
+     border-bottom: 3px solid #d9d9d9;
+     padding-bottom: 35px;
+}
+.admin_product_add .right .title .name {
+    text-align: center;
+    font-size: 36px;
+}
+.admin_product_add .right .title .name {
+     size: 40%;
+}
+.admin_product_add .right .title img{
+    width: 36px;
+}
+.admin_product_add .right .info{
+    display: flex;
+     margin-top: 70px;
+     margin-bottom: 200px;
+     font-size: 32px;
+}
+.admin_product_add .right .info .price {
+    text-align: center;
+    width: 30%;
+    margin: 0 50px 0 50px;
+}
+/* 상품설명 테두리*/
+.admin_product_add .right .more{
+    display: block;
+    text-align: center;
+    padding: 130px 0 100px 0;
+}
+.admin_product_add .right .more .product_detail{
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    justify-content: center;
+    margin: 25% 0 0 0;
+    padding: 100px 0 0 0;
+    border-radius: 15px;
+}
+/* 저장 버튼 */
+.admin_product_add .right .saveBtn{
+    display: block;
+    font-size: 150%;
+    border-radius: 15px;
+    background-color: gray;
+    width: 100%;
+    height: 10%;
+}

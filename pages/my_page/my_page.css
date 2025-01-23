@@ -1,0 +1,160 @@
+* {
+  font-family: netmarble;
+}
+.logout_menu,
+.order_list_menu,
+.cart_menu {
+  display: flex;
+  width: 7%;
+}
+
+.cart_menu > a > img {
+  display: flex;
+  margin-left: 28px;
+}
+
+/* 장바구니 메뉴 이미지 */
+.cart_menu > a > img {
+  width: 33px;
+}
+
+.header .lnb {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 50px 160px 0 160px;
+  box-sizing: border-box;
+}
+
+.header .lnb ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.header .lnb ul li {
+  display: block;
+}
+
+.header .lnb ul li a {
+  display: block;
+  width: 100%;
+  text-align: right;
+  text-decoration: none;
+  color: black;
+}
+
+.header .logo {
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+  padding: 50px 0;
+}
+
+.header .logo img {
+  width: 100%;
+  display: block;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.saperate_bar {
+  width: 515px;
+  padding: 1.5px;
+  background-color: black;
+  border: 0px solid #000;
+}
+
+/* 비밀번호 수정, 수정 확인 , 주소 입력창  */
+.edit_password_input,
+.edit_password_check_input,
+.adress_input {
+  background-color: #eeeeee;
+  border: none;
+  width: 515px;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.edit_password_check_input::placeholder,
+.edit_password_input::placeholder {
+  font-size: 15px;
+  color: #818181;
+  font-family: netmarble;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.input_text {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  width: 515px;
+  margin: 20px 0px 7px 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 아이디 타이틀 텍스트 */
+.id_title_text {
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: left;
+  width: 515px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.save_button {
+  display: flex;
+  justify-content: center;
+  width: 515px;
+  padding: 16px;
+  margin-top: 27px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.delete_account_button {
+  display: flex;
+  justify-content: right;
+  background-color: white;
+  border: none;
+  margin-top: 22px;
+  width: 515px;
+  text-decoration: underline;
+}
+
+.big_black_flower {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.small_black_flower {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}

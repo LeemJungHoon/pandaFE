@@ -1,0 +1,101 @@
+* {
+  font-family: netmarble;
+}
+
+.header .logo {
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+  padding: 50px 0;
+}
+
+.header .logo img {
+  width: 100%;
+  display: block;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+/* 이메일, 비밀번호 입력창  */
+.email_input,
+.password_input {
+  background-color: #eeeeee;
+  border: none;
+  width: 515px;
+  height: 54px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.password_input::placeholder,
+.email_input::placeholder {
+  font-size: 15px;
+  color: #818181;
+  font-family: netmarble;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.input_text {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  width: 515px;
+  margin: 20px 0px 7px 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 로그인 텍스트 */
+.login_title_text {
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin: 51px 79px;
+}
+
+.login_button,
+.join_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 515px;
+  padding: 16px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 22px;
+  width: 485px;
+}
+
+.join_button {
+  background-color: #8d8d8d;
+}
+
+.login_button {
+  margin-top: 27px;
+  background-color: black;
+}
+
+.black_flower {
+  width: 15px;
+  margin-right: 5px;
+}

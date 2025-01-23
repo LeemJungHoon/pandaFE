@@ -1,0 +1,97 @@
+* {
+    font-family: netmarble;
+  }
+  
+  .header .logo {
+    display: block;
+    margin: 0 auto;
+    width: 360px;
+    padding: 50px 0;
+  }
+  
+  .header .logo img {
+    width: 100%;
+    display: block;
+  }
+  
+  .footer {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  /* 이메일, 연락처 입력창  */
+  .name_input,
+  .phonenumber_input,
+  .destinationmodify_input{
+    background-color: #eeeeee;
+    border: none;
+    width: 515px;
+    height: 54px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .phonenumber_input::placeholder,
+  .name_input::placeholder,
+  .destinationmodify_input::placeholder {
+    font-size: 15px;
+    color: #818181;
+    font-family: netmarble;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .input_text {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 515px;
+    margin: 20px 0px 7px 0px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* 이름 텍스트 */
+  .destination_title_text {
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 51px 79px;
+  }
+  
+  .save_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 515px;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .save_button {
+    margin-top: 27px;
+  }
+  
+  .black_flower {
+    width: 15px;
+    margin-right: 5px;
+  }
+  

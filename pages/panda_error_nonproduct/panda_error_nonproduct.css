@@ -1,0 +1,23 @@
+.panda_error_nonproduct_blank {
+    margin: 3%;
+}
+
+.panda_error_nonproduct_main {
+    text-align: center;
+    font-size: 200%;     
+}
+.panda_error_nonproduct_main .grids{
+    display: grid;
+    grid-template-columns: 35% 4% 56%;
+    
+    align-items: center;
+    justify-items: left;
+}
+
+.panda_error_nonproduct_main .grids .num{
+    background-color: rgb(139, 134, 134);
+}
+
+.footer{
+    text-align: center;
+}

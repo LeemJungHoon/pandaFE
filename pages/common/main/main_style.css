@@ -1,0 +1,104 @@
+/* 메인화면 */
+
+* {
+  font-family: "paybooc";
+}
+.menu_main .container ul li a span {
+  font-weight: 700;
+}
+
+.banner .at_container {
+  width: 100%;
+  max-width: 1500px;
+  display: block;
+  margin: 0 auto;
+}
+.banner {
+  margin-top: 100px;
+  display: block;
+}
+.banner img {
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.banner .banner_ment {
+  font-size: 50px;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.banner .banner_ment span {
+  font-weight: 700;
+}
+.banner .banner_ment2 {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 130px;
+  line-height: 140%;
+}
+.center_menu {
+  background: #ddd;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.center_menu .at_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+}
+.center_menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center_menu ul li {
+}
+.center_menu ul li a {
+  display: block;
+}
+.center_menu ul li a img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+/* .center_menu ul li a:hover img {
+    border:1px solid #000
+}
+ */
+.center_menu ul li a span {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.best .at_container {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+.best .at_container h1 {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 250px;
+  margin-bottom: 110px;
+}
+.best .at_container img {
+  display: block;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}

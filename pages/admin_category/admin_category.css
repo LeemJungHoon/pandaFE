@@ -1,0 +1,130 @@
+* {
+  font-family: paybooc;
+}
+
+/* 카테고리 관리 버튼 */
+.category_management_menu {
+  background-color: #d9d9d9;
+  padding: 13px;
+  border-radius: 15px;
+}
+
+/* 주문관리, 카테고리 관리, 상품 관리 버튼 */
+.management_menu {
+  margin: 20px;
+  padding: 13px;
+}
+
+/* 주문관리, 카테고리 관리, 상품 관리 버튼 묶는 컨테이너 */
+.management_menu_container {
+  margin: 60px;
+  font-size: 40px;
+}
+
+.sub_menu_container,
+.main_menu_container {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+}
+
+/* 메인 메뉴, 서브 메뉴 전체 묶는 컨테이너 */
+.menu_container {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub_menu_container > button {
+  width: 200px;
+}
+
+.saperate_bar {
+  width: 1px;
+  background-color: #000;
+  margin-bottom: 222px;
+  padding: 120px 0px;
+}
+
+/* 상품 카테고리 버튼  */
+.sub_menu,
+.main_menu,
+.add_button {
+  margin: 15px;
+  font-size: 25px;
+  padding: 15px;
+}
+
+/* 관리자 카테고리, 상품 카테고리 마우스오버  */
+.sub_menu:hover,
+.main_menu:hover,
+.management_menu:hover {
+  background-color: #eeeeee;
+  border-radius: 15px;
+  /* padding: 13px; */
+}
+
+/* active, subActive 클래스 */
+.active,
+.subActive {
+  background-color: #eeeeee;
+  border-radius: 15px;
+  /* padding: 13px; */
+}
+
+/* 상품 추가 버튼 */
+.add_button {
+  background-color: #ededed;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.add_button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 수정, 삭제, 저장 버튼 묶는 컨테이너 */
+.category_edit_button_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* 수정, 삭제, 저장 버튼 */
+.cancel_button,
+.modify_button,
+.delete_button {
+  background-color: #d9d9d9;
+  width: 110px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+
+input {
+  font-size: 15px;
+  color: #222222;
+  width: 250px;
+  border: none;
+  border-bottom: solid #aaaaaa 1px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  position: relative;
+  background: none;
+  z-index: 5;
+}
+
+input:focus {
+  border-color: rgb(45, 179, 251);
+}

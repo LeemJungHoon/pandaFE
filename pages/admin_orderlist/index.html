@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PandaFlower</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/pages/common/css/common.css" />
+  <link rel="stylesheet" href="/pages/common/css/reset.css" />
+  <script type="module" src="/pages/common/js/common.js" defer></script>
+
+  <body>
+    <div class="menu_sub_admin"></div>
+    <div class="logo"></div>
+    <div class="menu_main"></div>
+
+    <div class="search">
+      <h3>주문번호 검색</h3>
+      <div class="search_bar">
+        <input type="text" id="search" />
+        <button type="button" class="search_btn" id="searchBtn">
+          <img src="/img/admin_order_management/search_img.png" alt="" />
+        </button>
+      </div>
+    </div>
+
+    <div class="admin_orderlist">
+      <div class="ao_list_head">
+        <span class="ah_num">번호</span>
+        <span class="ah_name">이름</span>
+        <span class="ah_ordernum">주문번호</span>
+        <span class="ah_product">상품명</span>
+        <span class="ah_pay">결제금액</span>
+        <span class="ah_status">처리상태</span>
+        <span class="ah_date">주문일자</span>
+      </div>
+      <div
+        class="ao_list_item"
+        onclick="location.href='/pages/admin_orderlist_detail/'"
+      >
+        <span class="ao_num">1</span>
+        <span class="ao_name">김수환</span>
+        <span class="ao_ordernum">29383726</span>
+        <span class="ao_product">장미</span>
+        <span class="ao_pay">56,000</span>
+        <span class="ao_status">배송전</span>
+        <span class="ao_date">2023-10-09</span>
+      </div>
+      <div
+        class="ao_list_item"
+        onclick="location.href='/pages/admin_orderlist_detail/'"
+      >
+        <span class="ao_num">1</span>
+        <span class="ao_name">김수환</span>
+        <span class="ao_ordernum">29383726</span>
+        <span class="ao_product">장미</span>
+        <span class="ao_pay">56,000</span>
+        <span class="ao_status">배송완료</span>
+        <span class="ao_date">2023-10-09</span>
+      </div>
+      <div
+        class="ao_list_item"
+        onclick="location.href='/pages/admin_orderlist_detail/'"
+      >
+        <span class="ao_num">1</span>
+        <span class="ao_name">김수환</span>
+        <span class="ao_ordernum">29383726</span>
+        <span class="ao_product">장미</span>
+        <span class="ao_pay">56,000</span>
+        <span class="ao_status">배송전</span>
+        <span class="ao_date">2023-10-09</span>
+      </div>
+      <div
+        class="ao_list_item"
+        onclick="location.href='/pages/admin_orderlist_detail/'"
+      >
+        <span class="ao_num">1</span>
+        <span class="ao_name">김수환</span>
+        <span class="ao_ordernum">29383726</span>
+        <span class="ao_product">장미</span>
+        <span class="ao_pay">56,000</span>
+        <span class="ao_status">주문거절</span>
+        <span class="ao_date">2023-10-09</span>
+      </div>
+    </div>
+
+    <div class="footer"></div>
+  </body>
+</html>
